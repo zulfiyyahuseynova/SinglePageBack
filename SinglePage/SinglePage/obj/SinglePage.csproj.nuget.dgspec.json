@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\Desktop\\Single Page Template\\SinglePage\\SinglePage\\SinglePage.csproj": {}
+    "C:\\Users\\tu7kswf4d\\Desktop\\SinglePageBack\\SinglePage\\SinglePage\\SinglePage.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\Desktop\\Single Page Template\\SinglePage\\SinglePage\\SinglePage.csproj": {
+    "C:\\Users\\tu7kswf4d\\Desktop\\SinglePageBack\\SinglePage\\SinglePage\\SinglePage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Single Page Template\\SinglePage\\SinglePage\\SinglePage.csproj",
+        "projectUniqueName": "C:\\Users\\tu7kswf4d\\Desktop\\SinglePageBack\\SinglePage\\SinglePage\\SinglePage.csproj",
         "projectName": "SinglePage",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\Single Page Template\\SinglePage\\SinglePage\\SinglePage.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\Single Page Template\\SinglePage\\SinglePage\\obj\\",
+        "projectPath": "C:\\Users\\tu7kswf4d\\Desktop\\SinglePageBack\\SinglePage\\SinglePage\\SinglePage.csproj",
+        "packagesPath": "C:\\Users\\tu7kswf4d\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tu7kswf4d\\Desktop\\SinglePageBack\\SinglePage\\SinglePage\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tu7kswf4d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +44,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.25, )"
@@ -77,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

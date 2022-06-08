@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SinglePage.DAL;
 using SinglePage.Models;
@@ -10,6 +11,7 @@ using System.Threading.Tasks;
 namespace SinglePage.Areas.Manage.Controllers
 {
     [Area("Manage")]
+    [Authorize]
     public class AboutController : Controller
     {
         private AppDbContext _context { get; }

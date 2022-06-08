@@ -31,6 +31,25 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <ul>
+                        <li>
+                            <a href="page-account.html" style="background-color:white;">@User.Identity.Name</a>
+                        </li>
+
+                        <li>
+                            <a asp-controller="Auth" asp-action="SignOut" style="background-color:white;"><i class="fi fi-rs-sign-out mr-10"></i>Sign out</a>
+                        </li>
+                    </ul>
+
+                }
+                else
+                {
+                    <li>
+                        <a asp-controller="Auth" asp-action="Register" style="background-color:white;"><span class="lable ml-0">Log In</span></a>
+                    </li>
+                }
             </ul>
         </div>
     </nav>
